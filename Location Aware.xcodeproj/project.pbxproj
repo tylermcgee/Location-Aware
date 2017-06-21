@@ -14,6 +14,7 @@
 		0361C6B51EE0A121008851E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0361C6B31EE0A121008851E5 /* LaunchScreen.storyboard */; };
 		0361C6C01EE0A121008851E5 /* Location_AwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0361C6BF1EE0A121008851E5 /* Location_AwareTests.swift */; };
 		0361C6CB1EE0A121008851E5 /* Location_AwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0361C6CA1EE0A121008851E5 /* Location_AwareUITests.swift */; };
+		0361C6DA1EE0A13B008851E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0361C6D91EE0A13B008851E5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0361C6C61EE0A121008851E5 /* Location AwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AwareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0361C6CA1EE0A121008851E5 /* Location_AwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AwareUITests.swift; sourceTree = "<group>"; };
 		0361C6CC1EE0A121008851E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0361C6D91EE0A13B008851E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0361C6DA1EE0A13B008851E5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				0361C6BE1EE0A121008851E5 /* Location AwareTests */,
 				0361C6C91EE0A121008851E5 /* Location AwareUITests */,
 				0361C6A81EE0A121008851E5 /* Products */,
+				0361C6D81EE0A13B008851E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				0361C6CC1EE0A121008851E5 /* Info.plist */,
 			);
 			path = "Location AwareUITests";
+			sourceTree = "<group>";
+		};
+		0361C6D81EE0A13B008851E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0361C6D91EE0A13B008851E5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
